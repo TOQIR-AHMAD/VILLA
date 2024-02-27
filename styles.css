@@ -62,7 +62,7 @@ nav a {
 }
 
 .videobg {
-  background-image: url(/images/video-bg.jpg);
+  background-image: url("./images/video-bg.jpg");
   width: auto;
   height: 60vh;
   background-size: cover;
@@ -185,7 +185,7 @@ nav a {
 
 
 .contact_bg{
-  background-image: url('images/contact-bg.jpg');
+  background-image: url('./images/contact-bg.jpg');
   height: 50vh;
   width: 100vw;
   background-size: cover;
