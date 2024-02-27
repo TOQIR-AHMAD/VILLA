@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.Fredoka {
+  font-family: "Fredoka";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.b {
+  border: 2px solid red;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  font-size: 30px;
+}
+nav a {
+  color: black;
+}
+
+.headline {
+  left: 130px;
+}
+
+.Others {
+  border: 1px solid black;
+  color: white;
+  width: 170px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: black;
+}
+.lock {
+  font-size: 22px;
+}
+
+.fam {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cards {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(226, 226, 226, 0.649) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.videobg {
+  background-image: url(/images/video-bg.jpg);
+  width: auto;
+  height: 60vh;
+  background-size: cover;
+
+  /* overflow-x: hidden; */
+}
+
+.frame {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: rgba(255, 166, 0, 0.249);
+  border-radius: 10px;
+  color: black;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.button1 {
+  width: 10rem;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+.button2 {
+  width: 10rem;
+  height: 50px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.dot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  background-color: orangered;
+  border-radius: 100%;
+}
+
+.centerimg img {
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 650px) {
+  .headline {
+    left: 20px;
+  }
+  .clipped {
+    clip-path: none;
+    max-height: 300px !important;
+  }
+}
+
+
+.buttonh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 12px;
+  gap: 8px;
+  height: 45px;
+  width: 150px;
+  border: none;
+  background: black;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.lable {
+  line-height: 22px;
+  font-size: 17px;
+  color: #fff;
+  margin-left: 20px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.buttonh .span {
+  border-radius: 50%;
+  background-color: orangered;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+}
+
+.buttonh:hover {
+  background: orangered;
+}
+
+.buttonh:hover .svg-icon {
+  animation: slope 3s linear infinite;
+}
+
+
+.contact_bg{
+  background-image: url('images/contact-bg.jpg');
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+
+form input[type="text"] {
+  opacity: 1;
+  display: block;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 0.8em;
+  border-radius: 20px;
+  background: rgba(169, 168, 168, 0.303);
+  color: #fff;
+}
+
+
+
+
+@keyframes slope {
+  0% {
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+  }
+}
+
+/* center image  */
