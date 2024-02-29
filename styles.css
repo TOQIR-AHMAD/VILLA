@@ -9,6 +9,14 @@
   padding: 0;
 }
 
+.container-fluid{
+  /* overflow-x: hidden; */
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .b {
   border: 2px solid red;
 }
@@ -56,16 +64,20 @@ nav a {
   font-weight: 600;
 }
 .cards {
-  background: rgb(255, 255, 255);
-  box-shadow: rgba(226, 226, 226, 0.649) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* background: rgb(255, 255, 255); */
+  border-radius: 10px;
+  background: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 450px;
+  /* width: 250px; */
 }
 
 .videobg {
   background-image: url("./images/video-bg.jpg");
-  width: auto;
+  width: 100vw;
   height: 60vh;
   background-size: cover;
+
 
   /* overflow-x: hidden; */
 }
@@ -80,13 +92,13 @@ nav a {
 
 .button {
   width: 200px;
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
   padding: 0px 15px;
-  background-color: rgba(255, 166, 0, 0.249);
+  background-color: rgba(255, 192, 203, 0.22);
   border-radius: 10px;
   color: black;
   border: none;
@@ -96,20 +108,20 @@ nav a {
 }
 
 .button1 {
-  width: 10rem;
-  height: 50px;
+  width: 7rem;
+  height: 40px;
   background-color: orangered;
-  border-radius: 10px;
-  color: black;
+  border-radius: 6px;
+  color: white;
   border: none;
   margin: 5px;
   cursor: pointer;
 }
 .button2 {
-  width: 10rem;
-  height: 50px;
+  width: 7rem;
+  height: 40px;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 6px;
   color: white;
   border: none;
   margin: 5px;
@@ -118,12 +130,12 @@ nav a {
 
 .dot {
   position: absolute;
-  right: 0;
+  right: -30px;
   top: 0;
   transform: translate(-50%, -50%);
-  width: 25px;
-  height: 25px;
-  background-color: orangered;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 68, 0, 0.775);
   border-radius: 100%;
 }
 
@@ -143,18 +155,36 @@ nav a {
 }
 
 
+
+
+/* 
+@media screen and (max-width:768px) {
+  .propertyicon {
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+ 
+  }
+  
+} */
+
+
 .buttonh {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 9px 12px;
   gap: 8px;
-  height: 45px;
-  width: 150px;
+  height: 48px;
+  width: 200px;
   border: none;
   background: black;
+  color: white;
   border-radius: 50px;
   cursor: pointer;
+  font-family: "Fredoka";
   position: relative;
 }
 
@@ -169,8 +199,9 @@ nav a {
 
 .buttonh .span {
   border-radius: 50%;
+
   background-color: orangered;
-  padding: 10px;
+  padding: 11.9px;
   position: absolute;
   left: 0;
 }
@@ -183,14 +214,12 @@ nav a {
   animation: slope 3s linear infinite;
 }
 
-
-.contact_bg{
-  background-image: url('./images/contact-bg.jpg');
+.contact_bg {
+  background-image: url("./images/contact-bg.jpg");
   height: 50vh;
-  width: 100vw;
+  width: 98vw;
   background-size: cover;
 }
-
 
 form input[type="text"] {
   opacity: 1;
@@ -204,8 +233,30 @@ form input[type="text"] {
   color: #fff;
 }
 
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./images/banner-01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* 
+.propertyicon {
+  background-color: orangered;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  margin-left: -350px;
+  margin-top: 430px;
+  z-index: 2;
 
+} */
 
+/* .propertyimg {
+  margin-left: 25px;
+  margin-top: 25px;
+} */
 
 @keyframes slope {
   0% {
@@ -220,3 +271,29 @@ form input[type="text"] {
 }
 
 /* center image  */
+
+
+/* Accordian   */
+
+
+.collapsible-link {
+  width: 100%;
+  position: relative;
+  text-align: left; 
+}
+
+.collapsible-link::before {
+  content: "\f107";
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  transform: translateY(-50%);
+  display: block;
+  font-family: "FontAwesome";
+  font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded="true"]::before {
+  content: "\f106";
+  /* width: 100%; */
+}
