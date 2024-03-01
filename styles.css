@@ -199,25 +199,27 @@ nav a {
 
 .buttonh .span {
   border-radius: 50%;
-
   background-color: orangered;
-  padding: 11.9px;
+  padding: 7px;
+  height: 40px;
+  width: 40px;
   position: absolute;
-  left: 0;
+  left: 2px;
+  
 }
 
 .buttonh:hover {
   background: orangered;
+
+
 }
 
-.buttonh:hover .svg-icon {
-  animation: slope 3s linear infinite;
-}
+
 
 .contact_bg {
   background-image: url("./images/contact-bg.jpg");
   height: 50vh;
-  width: 98vw;
+  width: 100vw;
   background-size: cover;
 }
 
@@ -275,7 +277,9 @@ form input[type="text"] {
 
 /* Accordian   */
 
-
+.icons i{
+  cursor: pointer;
+}
 .collapsible-link {
   width: 100%;
   position: relative;
@@ -296,4 +300,17 @@ form input[type="text"] {
 .collapsible-link[aria-expanded="true"]::before {
   content: "\f106";
   /* width: 100%; */
+}
+
+
+.product-card {
+  position: relative;
+  max-width: 355px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px 30px 30px 30px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  overflow: hidden;
 }

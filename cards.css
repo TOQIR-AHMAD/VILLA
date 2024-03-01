@@ -86,3 +86,29 @@
   .name:hover {
     cursor: pointer;
   }
+
+
+
+
+  h2 {
+    margin-top: 0;
+  }
+  
+  .card1 {
+    padding: 40px;
+    background: #fff;
+    max-width: 360px;
+    border-radius: 20px;
+    margin: 60px auto;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #294;
+  }
+  
+  .shadow1 { 
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+  }
+  
+  
