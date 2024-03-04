@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.container-fluid{
+.container-fluid {
   /* overflow-x: hidden; */
 }
 
@@ -77,7 +77,6 @@ nav a {
   width: 100vw;
   height: 60vh;
   background-size: cover;
-
 
   /* overflow-x: hidden; */
 }
@@ -154,8 +153,33 @@ nav a {
   }
 }
 
+@media screen and (max-width: 425px) {
+  .propertyicon {
+    margin-left: 0px;
+    bottom: 0;
+    /* z-index: 2; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .propertyicon{
+    bottom: 0;
+    left: 0px;
+    
+  }
+}
 
-
+@media screen and (max-width: 1024px) {
+  .propertyicon {
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    left: 0px;
+    bottom: 0;
+    /* z-index: 2; */
+  }
+}
 
 /* 
 @media screen and (max-width:768px) {
@@ -169,7 +193,6 @@ nav a {
   }
   
 } */
-
 
 .buttonh {
   display: flex;
@@ -205,16 +228,11 @@ nav a {
   width: 40px;
   position: absolute;
   left: 2px;
-  
 }
 
 .buttonh:hover {
   background: orangered;
-
-
 }
-
-
 
 .contact_bg {
   background-image: url("./images/contact-bg.jpg");
@@ -242,23 +260,23 @@ form input[type="text"] {
   background-size: cover;
   background-position: center;
 }
-/* 
+
 .propertyicon {
   background-color: orangered;
   height: 100px;
   width: 100px;
   border-radius: 50%;
   border: none;
-  margin-left: -350px;
+  margin-right: 350px;
+  /* margin-left: -350px; */
   margin-top: 430px;
-  z-index: 2;
+  /* z-index: 2; */
+}
 
-} */
-
-/* .propertyimg {
+.propertyimg {
   margin-left: 25px;
   margin-top: 25px;
-} */
+}
 
 @keyframes slope {
   0% {
@@ -274,16 +292,15 @@ form input[type="text"] {
 
 /* center image  */
 
-
 /* Accordian   */
 
-.icons i{
+.icons i {
   cursor: pointer;
 }
 .collapsible-link {
   width: 100%;
   position: relative;
-  text-align: left; 
+  text-align: left;
 }
 
 .collapsible-link::before {
@@ -301,7 +318,6 @@ form input[type="text"] {
   content: "\f106";
   /* width: 100%; */
 }
-
 
 .product-card {
   position: relative;
