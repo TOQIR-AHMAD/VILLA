@@ -16,8 +16,4 @@ Getting started with the project is a straightforward process. Simply clone this
 <h3>
   <a href="https://github.com/TOQIR-AHMAD/VILLA">Demo</a>
 </h3>
-For a firsthand experience of the website's capabilities, check out the live demo. The demo provides an interactive showcase of the website's features, allowing you to witness the animations and responsiveness in action.
-
-<h3>Contributing</h3>
-Contributions to the project are highly encouraged! Whether you identify issues, have ideas for enhancements, or wish to contribute code improvements, please feel free to open an issue or submit a pull request. Your contributions are invaluable to the growth of this project.
-
+Live Link: https://github.com/TOQIR-AHMAD/VILL
