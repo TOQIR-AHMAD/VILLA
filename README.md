@@ -16,4 +16,4 @@ Getting started with the project is a straightforward process. Simply clone this
 <h3>
   <a href="https://github.com/TOQIR-AHMAD/VILLA">Demo</a>
 </h3>
-Live Link: https://github.com/TOQIR-AHMAD/VILL
+Live Link: https://github.com/TOQIR-AHMAD/VILLA
