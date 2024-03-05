@@ -14,6 +14,6 @@ The website boasts a range of features aimed at delivering a delightful user exp
 Getting started with the project is a straightforward process. Simply clone this repository to your local machine and open the index.html file in your preferred web browser. No additional dependencies or setup are required, allowing you to explore the website effortlessly.
 
 <h3>
-  <a href="toqir-ahmad.github.io/VILLA/">Demo</a>
+  <a href="toqir-ahmad.github.io/VILLA">Demo</a>
 </h3>
-Live Link: https://github.com/TOQIR-AHMAD/VILLA
+Live Link: toqir-ahmad.github.io/VILLA/
